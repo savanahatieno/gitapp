@@ -8,7 +8,7 @@
     </nav>
 </div> -->
 
-<nav class="navbar navbar-expand-lg navbar-dark">
+<!-- <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand logotext" routerLink="user-list" appLogoHighlight>{{logo}}</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -19,4 +19,20 @@
         <li class="nav-link" routerLink="repo-list">Search Repos</li>
       </ul>
     </div>
+  </nav> -->
+
+<div class="body" >
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </label>
+    <label class="logo">GIT-APP</label>
+    <ul>
+      <li class="nav-link" routerLink="user-list" >Search Users</li>
+      <li class="nav-link" routerLink="repo-list" >Search Repositories</li>
+    </ul>
   </nav>
+</div>
