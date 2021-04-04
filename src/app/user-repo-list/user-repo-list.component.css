@@ -9,8 +9,6 @@
   border-radius: 0;
   background-color: #172b4d;
 }
-/* .card-header{
-} */
 .card-footer{
   background-color: white;
   color: black;
@@ -27,12 +25,6 @@
   font-family: 'Averia Libre', cursive;
   color: darkcyan;
   font-size: 30px;
-}
-#rbranch,
-#rdesc,
-#rlang,
-#rforks{
-
 }
 
 #rwatchers{

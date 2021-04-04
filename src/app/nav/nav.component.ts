@@ -1,3 +1,19 @@
+// import { Component, OnInit } from '@angular/core';
+
+// @Component({
+//   selector: 'app-nav',
+//   templateUrl: './nav.component.html',
+//   styleUrls: ['./nav.component.css']
+// })
+// export class NavComponent implements OnInit {
+
+//   constructor() { }
+
+//   ngOnInit(): void {
+//   }
+
+// }
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +22,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
-
+logo = 'G-Search';
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
 }
+
