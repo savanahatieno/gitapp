@@ -11,4 +11,4 @@ export class GitUser {
     // tslint:disable-next-line:variable-name
     created_at: Date;
     // tslint:disable-next-line:variable-name
-    public_repos: any;
+    public_repos: any;}
