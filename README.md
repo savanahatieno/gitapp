@@ -1,27 +1,54 @@
-# Gitapp
+# GitApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7
+.
 
-## Development server
+## Author
+> Agutu Savanah.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Installations
+* nodejs
+* npm
+* angularCLI
+* typescript
+* bootstrap
 
-## Code scaffolding
+## Setup
+Run ``https://github.com/savanahatieno/gitapp.git``
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+or download the zip file from github.
 
-## Build
+After extracting the files, run 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* 1  .`` cd gitapp.`` 
+* 2  .``ng serve.``
 
-## Running unit tests
+you can also run tests with ``ng test.``
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Technologies used
+* Html5
+* Css3
+* Typescript
+* Bootstrap
+* Angular
+* Github Api's
 
-## Running end-to-end tests
+## BDD(Behaviour Driven Development)
+| Inputs |  Description |
+| :---         |          ---: |
+| Username  | Github username, ``eg savanahatieno``|
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+| Outputs |  Description |
+| :---         |          ---: |
+| Profile data  | A specific user profile info.|
+| Repositories   |  All repositories created by a user |
+|     |      |
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## License
+> MIT License &copy 2021 Savanah
+
+## Collaborate
+To collaborate, reach me on [agutusavanah01@gmail.com]()
+
