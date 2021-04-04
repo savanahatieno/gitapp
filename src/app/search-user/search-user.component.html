@@ -1,4 +1,7 @@
 <form action="" class="search-bar">
-	<input type="search" name="searchName" placeholder="Enter Github Username" >
-	<button class="btn btn-success" type="button" (click)="emmitUser()">Search</button>
+	<input type="search" name="searchName" placeholder="Enter Github Username" aria-label="user" aria-describedby="basic-addon2" name="searchTerm" [(ngModel)]="searchTerm" >
+	<div class="input-group-append" >
+		<button class="btn btn-success" type="button" (click)="emmitUser()">Search</button>
+	</div>
+	
 </form>
