@@ -3,6 +3,10 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+  h2{
+    color: black;
+    font-family:'Yatra One', cursive;
+  }
   .jumbotron{
     border-radius: 0;
   }
@@ -28,8 +32,8 @@
   
   }
   .overlay{
-    background-color: rgba(0,0,0,0.0);
-    height: inherit;
+    background-color: rgba(255, 179, 236, 0.938);
+    height: 300px;
   }
   .user{
     font-size: 30px;
