@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Gruppo&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Averia+Libre&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
 .flex-footer{
   display: flex;
   justify-content: space-around;
 }
+h1{
+  color: black;
+  font-family: 'Yatra One', cursive;
+}
 .jumbotron{
   border-radius: 0;
-  background-color: #172b4d;
+  background-color: #ff5101d8;
 }
 .card-footer{
-  background-color: white;
+  background-color: rgb(143, 247, 8);
   color: black;
 }
 .repo-number{
@@ -19,11 +24,13 @@
   font-family: 'Gruppo', cursive;
 }
 #num{
-  color: orangered;
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+  font-size:33px ;
 }
 #rname{
   font-family: 'Averia Libre', cursive;
-  color: darkcyan;
+  color: rgb(4, 0, 253);
   font-size: 30px;
 }
 

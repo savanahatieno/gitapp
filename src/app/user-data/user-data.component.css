@@ -1,5 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
 .jumbotron{
-    background-image: url("../../assets/bg.gif");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -14,6 +14,9 @@
   .card-img{
     height: 300px;
     width: 300px;
+  }
+  .img-icon{
+    background-image:url(../../assets/icon.png);
   }
   
   @media (max-width: 740px) {
@@ -34,10 +37,10 @@
   }
   .gsearch{
     font-size: 60px;
-    color: orange;
+    color: rgb(12, 12, 12);
     margin-top: 20px;
     margin-bottom: 40px;
-    font-family: 'Love Ya Like A Sister', cursive;
+    font-family:'Yatra One', cursive;
   }
   .footer-text{
     font-family: system-ui, serif;
