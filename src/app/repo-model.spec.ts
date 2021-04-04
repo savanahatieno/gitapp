@@ -1,11 +1,7 @@
-export class RepoModel {
-    description: any;
-    name: any;
-    owner: any;
-    watchers: any;
-    forks: any;
-    // tslint:disable-next-line:variable-name
-    default_branch: any;
-    language: any;
-  
-  }
+import { RepoModel } from './repo-model';
+
+describe('RepoModel', () => {
+  it('should create an instance', () => {
+    expect(new RepoModel()).toBeTruthy();
+  });
+});
